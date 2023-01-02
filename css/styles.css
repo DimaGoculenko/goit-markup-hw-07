@@ -829,16 +829,104 @@ textarea:hover {
 
 
 /* Mobile 428px */
-@media (min-width: 428px) {
+@media screen and (max-width: 767px) {
+
     body {
-        background-color: rgb(241, 9, 241);
+        width: 428px;
+        height: 4958px;
+    }
+
+    .container {
+        width: 100%;
+        margin: 0;
+        /* background-color: chartreuse; */
+    }
+
+    .navigation,
+    .contact,
+    .section2,
+    .feature-list::before {
+        display: none;
+    }
+
+    .footer,
+    .customers,
+    ul {
+        display: block;
+    }
+
+    .header {
+        width: 428px;
+        height: 70px;
+    }
+
+    .logo-header {
+        width: 44px;
+        height: 22px;
+        margin-left: 16px;
+    }
+
+    .section-block {
+        width: 428px;
+        height: 432px;
+        padding-top: 112px;
+    }
+
+    .title {
+        width: 317px;
+        height: 80px;
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    .section1 {
+        width: 396px;
+        height: 624px;
+        margin-bottom: 96px;
+    }
+
+    H3 {
+        text-align: center;
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    .slogan-section1 {
+        width: 396px;
+        height: 96px;
+    }
+
+    .feature-list {
+        width: 396px;
+        height: 96px;
+        margin-bottom: 72px;
+    }
+
+    .section3 {
+        width: 428px;
+        height: 2264px;
+    }
+
+    .section-customers {
+        width: 396px;
+        height: 522px;
+    }
+
+    .customers {
+    
+    }
+
+    .footer {
+        width: 428px;
+        height: 662px;
     }
 
 }
 
 
+
  /* Tablet 768px */
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
     body {
         background-color: coral;
     }
@@ -846,4 +934,4 @@ textarea:hover {
 }
 
 
- /* Desktop 1440px */
+/* Desktop 1440px */
