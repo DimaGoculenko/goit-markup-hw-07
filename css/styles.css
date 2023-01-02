@@ -828,10 +828,22 @@ textarea:hover {
 
 
 
-/* 480px */
+/* Mobile 428px */
+@media (min-width: 428px) {
+    body {
+        background-color: rgb(241, 9, 241);
+    }
+
+}
 
 
- /* 768px */
+ /* Tablet 768px */
+@media (min-width: 768px) {
+    body {
+        background-color: coral;
+    }
+
+}
 
 
- /* 1200px */
+ /* Desktop 1440px */
