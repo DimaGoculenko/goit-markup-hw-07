@@ -905,11 +905,23 @@ textarea:hover {
     .section3 {
         width: 428px;
         height: 2264px;
+        padding-top: 96px;
     }
 
     .section-customers {
         width: 396px;
         height: 522px;
+    }
+
+    .list-photo {
+        width: 260.35px;
+        height: 436px;
+        margin-bottom: 72px;
+    }
+
+    .name {
+        font-size: 20px;
+        line-height: 24px;
     }
 
     .customers {
