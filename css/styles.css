@@ -882,7 +882,7 @@ textarea:hover {
     }
 
 /* < !-- Contacts --> */
-    .contact-button {
+    .mobile-menu-open {
         background-color: var(--primary-fon-color);
         background-image: url(/images/images-mobile/charm_menu-hamburger-2.jpg);
         background-position: center;
@@ -893,6 +893,88 @@ textarea:hover {
         border: none;
     }
 
+    .mobil-menu {
+        position: absolute;
+        content: "";
+        width: 428px;
+        height: 796px;
+        top: 0;
+        left: 0;
+        background-color: var(--primary-fon-color);
+        box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+        transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    /* .mobil-menu {
+        opacity: 0;
+        pointer-events: none;
+        visibility: hidden;
+    } */
+
+    .mobil-menu-close {
+        position: absolute;
+        content: "";
+        width: 24px;
+        height: 24px;
+        right: 40px;
+        top: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #000000;
+        background-color: var(--color-footer-text);
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 50%;
+    }
+
+    .mobile-link-navigation {
+        width: 150px;
+        height: 200px;
+        margin-top: 80px;
+        margin-left: 40px;
+        margin-bottom: 284px;
+    }
+
+    .link-navigation {
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 40px;
+        margin-bottom: 40px;
+    }
+
+    .contact-icon {
+        margin-right: 0px;
+        margin-bottom: 40px;
+    }
+
+    .contact-list-tel {
+        font-size: 36px;
+        line-height: 40px;
+        margin-bottom: 40px;
+        margin-left: 40px;
+    }
+
+    .contact-list-mail {
+        width: 193px;
+        height: 24px;
+        margin-left: 40px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .mobile-social{
+        display: flex;
+        margin-top: 48px;
+        margin-left: 40px;
+    }
+
+    .mobile-social-icon {
+        width: 40px;
+        height: 40px;
+        margin-right: 56px;
+        background-color: var(--primary-text-color);
+        border-radius: 50%;
+    }
 
 /* ----section-block---- */
     .section-block {
@@ -1112,10 +1194,10 @@ textarea:hover {
         background-color: coral;
     }
 
-    .contact-button {
+    .mobile-menu-open,
+    .mobil-menu {
         display: none;
     }
-
 }
 
 
@@ -1125,7 +1207,8 @@ textarea:hover {
         /* background-color: rgb(183, 241, 12); */
     }
 
-    .contact-button {
+    .mobile-menu-open,
+    .mobil-menu {
         display: none;
     }
 }
