@@ -141,6 +141,8 @@ li:last-child {
 }
 
 /*----------main для index.html----------*/
+
+/* < !---section-block---> */
 .section-block {
     background-color: var(--color-body-text);
     padding-top: 192px;
