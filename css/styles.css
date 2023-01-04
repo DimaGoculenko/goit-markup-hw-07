@@ -878,7 +878,7 @@ textarea:hover {
 
 /* < !-- Contacts --> */
     .contact-button {
-        /* display: flex; */
+        background-color: var(--primary-fon-color);
         background-image: url(/images/images-mobile/charm_menu-hamburger-2.jpg);
         background-position: center;
         background-repeat: no-repeat;
