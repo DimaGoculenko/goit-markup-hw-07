@@ -873,9 +873,21 @@ textarea:hover {
         width: 44px;
         height: 22px;
         margin-left: 16px;
+        margin-right: 0;
     }
 
 /* < !-- Contacts --> */
+    .contact-button {
+        /* display: flex; */
+        background-image: url(/images/images-mobile/charm_menu-hamburger-2.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 32px;
+        height: 32px;
+        margin-left: 249px;
+        border: none;
+    }
+
 
 /* ----section-block---- */
     .section-block {
@@ -1095,6 +1107,10 @@ textarea:hover {
         background-color: coral;
     }
 
+    .contact-button {
+        display: none;
+    }
+
 }
 
 
@@ -1102,5 +1118,9 @@ textarea:hover {
 @media screen and (min-width: 1200px) {
     body {
         /* background-color: rgb(183, 241, 12); */
+    }
+
+    .contact-button {
+        display: none;
     }
 }
