@@ -829,8 +829,7 @@ textarea:hover {
 }
 
 
-
-/* -------Mobile 428px ---------*/
+/* ------------------Mobile 428px------------------*/
 @media screen and (max-width: 767px) {
 
     body {
@@ -935,6 +934,8 @@ textarea:hover {
         width: 260.35px;
         height: 436px;
         margin-bottom: 72px;
+        margin-right: auto;
+        margin-left: auto;
     }
 
     .name {
@@ -954,8 +955,7 @@ textarea:hover {
         height: 662px;
     }
 
-
-/* < !-- ------foote-logo-text---- --> */
+/* < !---foote-logo-text---> */
     .logo-footer {
         width: 116.74px;
         height: 22px;
@@ -1040,9 +1040,7 @@ textarea:hover {
     }
 }
 
-
-
-/* ---------Tablet 768px ---------*/
+/* -------------------Tablet 768px -----------------*/
 @media screen and (min-width: 768px) and (max-width: 1199px) {
     body {
         background-color: coral;
@@ -1051,7 +1049,7 @@ textarea:hover {
 }
 
 
-/* ------------Desktop 1440px ----------*/
+/* -------------------Desktop 1440px -----------------*/
 @media screen and (min-width: 1200px) {
     body {
         background-color: rgb(183, 241, 12);
