@@ -9,6 +9,7 @@
     --color-border: #F4F4FD;
     --color-company: #8E8F99;
     --color-green-footer: #31D0AA;
+    --color-title-customers: #212121;
 }
 
 body {
@@ -957,6 +958,10 @@ textarea:hover {
         margin-left: auto;
         margin-bottom: 96px;
         margin-top: 96px;
+    }
+
+    .title-text-customers{
+        color: var(--color-title-customers)
     }
 
     .item-customers {
