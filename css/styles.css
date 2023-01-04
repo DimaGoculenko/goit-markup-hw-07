@@ -753,6 +753,7 @@ input:hover {
     position: relative;
     display: flex;
     flex-direction: column;
+    margin-top: 8px;
 }
 
 textarea {
@@ -1078,6 +1079,11 @@ textarea:hover {
 
     .modal {
         width: 396px;
+    }
+
+    .form-modal {
+        padding-right: 16px;
+        padding-left: 16px;
     }
 }
 
