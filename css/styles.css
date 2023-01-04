@@ -837,11 +837,9 @@ textarea:hover {
     }
 
     .container {
-        width: 428px;
-        padding-right: 15px;
+        width: auto;
         padding-left: 0;
-        margin-right: auto;
-        margin-left: auto;
+        padding-right: 0;
     }
 
     .navigation,
@@ -951,6 +949,9 @@ textarea:hover {
         width: 428px;
         height: 662px;
     }
+
+
+/* < !-- ------foote-logo-text---- --> */
     .logo-footer {
         width: 116.74px;
         height: 22px;
@@ -960,11 +961,9 @@ textarea:hover {
     }
 
     .text-footer {
-        width: 268px;
         height: 72px;
         font-weight: 400;
         font-size: 16px;
-        padding-top: 16px;
         margin-top: 16px;
         margin-right: auto;
         margin-left: auto;
