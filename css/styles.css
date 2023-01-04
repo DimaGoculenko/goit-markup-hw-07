@@ -897,6 +897,8 @@ textarea:hover {
         height: 624px;
         margin-top: 96px;
         margin-bottom: 96px;
+        margin-right: auto;
+        margin-left: auto;
     }
 
     H3 {
@@ -951,7 +953,36 @@ textarea:hover {
     .section-customers {
         width: 396px;
         height: 522px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 96px;
     }
+
+    .item-customers {
+        width: 190px;
+        height: 88px;
+    }
+
+    .icon-customers {
+        width: 110px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .customers {
+        width: 396px;
+        height: 522px;
+    }
+
+    .customers-li {
+        display: inline-block;
+        margin-right: 12px;
+        margin-bottom: 72px;
+    }
+
+    .customers-li:nth-child(2n+2) {
+        margin-right: 0;
+        }
 
 /* < !-- Footer --> */
     .footer {
@@ -959,7 +990,7 @@ textarea:hover {
         height: 662px;
     }
 
-/* < !---foote-logo-text---> */
+/* < !---footer-logo-text---> */
     .logo-footer {
         width: 116.74px;
         height: 22px;
