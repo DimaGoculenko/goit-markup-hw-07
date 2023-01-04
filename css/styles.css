@@ -110,9 +110,9 @@ span {
     color: var(--primary-text-color);
 }
 
-li:last-child {
+/* li:last-child {
     margin-right: 0px;
-}
+} */
 
 /* contact меил и телефон */
 .contact {
@@ -444,6 +444,10 @@ button:focus {
 .social-icon {
     display: flex;
     margin-top: 16px;
+}
+
+.social-icon:last-child {
+    margin-right: 0px;
 }
 
 .social-link {
@@ -877,7 +881,7 @@ textarea:hover {
         height: 432px;
         padding-top: 112px;
         background-image: linear-gradient(rgba(47, 48, 58, 0.7), rgba(47, 48, 58, 0.7)),
-                url(../images/images-mobile/Dark-bg-m.jpg);
+        url(../images/images-mobile/Dark-bg-m.jpg);
     }
 
     .title {
@@ -931,7 +935,7 @@ textarea:hover {
     }
 
     .list-photo {
-        width: 260.35px;
+        width: 260px;
         height: 436px;
         margin-bottom: 72px;
         margin-right: auto;
@@ -1040,6 +1044,8 @@ textarea:hover {
     }
 }
 
+
+
 /* -------------------Tablet 768px -----------------*/
 @media screen and (min-width: 768px) and (max-width: 1199px) {
     body {
@@ -1052,6 +1058,6 @@ textarea:hover {
 /* -------------------Desktop 1440px -----------------*/
 @media screen and (min-width: 1200px) {
     body {
-        background-color: rgb(183, 241, 12);
+        /* background-color: rgb(183, 241, 12); */
     }
 }
