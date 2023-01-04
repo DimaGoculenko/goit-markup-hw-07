@@ -1203,10 +1203,7 @@ textarea:hover {
 
 /* -------------------Desktop 1440px -----------------*/
 @media screen and (min-width: 1200px) {
-    body {
-        /* background-color: rgb(183, 241, 12); */
-    }
-
+    
     .mobile-menu-open,
     .mobil-menu {
         display: none;
