@@ -869,6 +869,11 @@ textarea:hover {
     }
 
 /* ------logo----- */
+    .nav-href {
+        width: 115px;
+        height: 22px;
+    }
+
     .logo-header {
         width: 44px;
         height: 22px;
