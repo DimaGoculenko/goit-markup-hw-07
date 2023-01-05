@@ -1228,9 +1228,7 @@ textarea:hover {
 /* -------------------Tablet 768px -----------------*/
 @media screen and (min-width: 768px) and (max-width: 1199px) {
     body {
-        /* width: 768px; */
-        width: 100%;
-        height: 3249px;
+        width: 768px;
     }
 
     .mobile-menu-open,
@@ -1241,7 +1239,6 @@ textarea:hover {
     }
 
     .container {
-        /* width: 100%; */
         width: 768px;
         padding-left: 16px;
         padding-right: 16px;
@@ -1249,7 +1246,7 @@ textarea:hover {
 
 /* < !-- header --> */
     .header {
-        width: 100%;
+        width: 768px;
         height: 70px;
     }
 
@@ -1258,8 +1255,8 @@ textarea:hover {
 
 /* < !-- section-block --> */
     .section-block {
+        width: 768px;
         height: 435px;
-        width: 100%;
         padding-top: 112px;
         background-image: linear-gradient(rgba(47, 48, 58, 0.7), rgba(47, 48, 58, 0.7)),
         url(../images/images-mobile/Dark-bg-tableе.jpg);
@@ -1296,7 +1293,8 @@ textarea:hover {
 
 /* < !-- Section 3 Our Team --> */
     .section3 {
-        width: 768px;
+        /* width: 768px; */
+
         height: 1232px;
         margin-top: 96px;
         padding-top: 0;
@@ -1321,7 +1319,7 @@ textarea:hover {
     
 /* < !-- Section Customers --> */
     .section-customers {
-        width: 552px;
+        /* width: 552px; */
         height: 362px;
         margin-left: 96px;
     }
@@ -1331,7 +1329,8 @@ textarea:hover {
     }
 
     .title-text-customers {
-        width: 552px;
+        /* width: 552px; */
+        
         font-size: 36px;
         line-height: 42px;
         text-align: center;
