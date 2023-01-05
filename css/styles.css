@@ -1234,9 +1234,13 @@ textarea:hover {
     }
 
     .mobile-menu-open,
-    .mobil-menu {
+    .mobil-menu,
+    .section2,
+    .feature-list::before {
         display: none;
     }
+
+    
 }
 
 
