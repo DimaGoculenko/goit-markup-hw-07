@@ -1231,7 +1231,6 @@ textarea:hover {
     body {
         width: 768px;
         height: 3249px;
-        background-color: coral;
     }
 
     .mobile-menu-open,
@@ -1276,7 +1275,9 @@ textarea:hover {
         margin-top: 96px;
     }
 
-    .section1-li {
+    .section1-li,
+    .list-photo-li,
+    .customers {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -1312,9 +1313,6 @@ textarea:hover {
     }
 
     .list-photo-li {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
         margin-left: 96px;
     }
 
@@ -1327,12 +1325,34 @@ textarea:hover {
         line-height: 24px;
     }
     
-
-
 /* < !-- Section Customers --> */
+    .section-customers {
+        width: 552px;
+        height: 362px;
+        margin-left: 96px;
+    }
+
+    .customers {
+        width: 552px;
+    }
+
+    .title-text-customers {
+        width: 552px;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+    }
+
+    .customers-li {
+        margin-bottom: 72px;
+        
+    }
 
 
 /* < !-- Footer --> */
+    .footer {
+        display: inline-flex;
+    }
 
 
 /* < !-- Social --> */
