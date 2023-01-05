@@ -885,12 +885,12 @@ textarea:hover {
     .mobile-menu-open {
         background-color: var(--primary-fon-color);
         background-image: url(/images/images-mobile/charm_menu-hamburger-2.jpg);
-        background-position: center;
         background-repeat: no-repeat;
         width: 32px;
         height: 32px;
         margin-left: 260px;
         border: none;
+        
     }
 
     .mobil-menu {
