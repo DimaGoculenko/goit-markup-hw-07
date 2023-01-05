@@ -1184,6 +1184,47 @@ textarea:hover {
         padding-right: 16px;
         padding-left: 16px;
     }
+
+/*--------main для portfolio.html----------*/
+    .button-filters {
+        padding-top: 48px;
+        padding-bottom: 48px;
+        margin-left: 16px;
+    }
+
+    .li-button {
+        display: inline-flex;
+        margin-right: 24px;
+        margin-bottom: 16px;
+    }
+
+    .flex-container {
+        display: block;
+        margin-right: 16px;
+        margin-left: 16px;
+    }
+
+    .list-item {
+        width: 396px;
+        height: 280px;
+    }
+
+    .list-item-img {
+        width: 396px;
+            height: 280px;
+    }
+
+    .subtitle {
+        font-size: 20px;
+        line-height: 24px;
+        text-align: left;
+    }
+
+    .list:nth-last-child(-n + 3) {
+        margin-bottom: 48px;
+        }
+
+
 }
 
 
