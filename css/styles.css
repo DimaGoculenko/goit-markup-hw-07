@@ -1240,12 +1240,6 @@ textarea:hover {
         display: none;
     }
 
-    .footer,
-    .customers,
-    ul {
-        display: block;
-    }
-
     .container {
         width: 100%;
         padding-left: 16px;
@@ -1299,7 +1293,6 @@ textarea:hover {
         margin-bottom: 96px;
     }
 
-    
 /* < !-- Section 3 Our Team --> */
     .section3 {
         width: 768px;
@@ -1345,21 +1338,35 @@ textarea:hover {
 
     .customers-li {
         margin-bottom: 72px;
-        
     }
-
 
 /* < !-- Footer --> */
     .footer {
+        width: 768px;
+        height: 454px;
         display: inline-flex;
     }
 
+/* < !-- footer logo text --> */
+    .logo-footer {
+        margin-top: 96px;
+        margin-left: 108px;
+    }
+
+    .text-footer {
+        margin-left: 108px;
+    }
 
 /* < !-- Social --> */
-
+    .social {
+        margin-top: 96px;
+        margin-left: 24px;
+    }
 
 /* < !-- Subscribe --! */
-
+    .subscribe {
+        /* position: absolute; */
+    }
 
 /* < !-- backdrop --> */
     .backdrop {
