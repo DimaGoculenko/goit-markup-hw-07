@@ -837,7 +837,6 @@ textarea:hover {
 
 /* ------------------Mobile 428px------------------*/
 @media screen and (max-width: 767px) {
-
     body {
         width: 428px;
         height: 4958px;
@@ -1229,7 +1228,8 @@ textarea:hover {
 /* -------------------Tablet 768px -----------------*/
 @media screen and (min-width: 768px) and (max-width: 1199px) {
     body {
-        width: 768px;
+        /* width: 768px; */
+        width: 100%;
         height: 3249px;
     }
 
@@ -1241,7 +1241,8 @@ textarea:hover {
     }
 
     .container {
-        width: 100%;
+        /* width: 100%; */
+        width: 768px;
         padding-left: 16px;
         padding-right: 16px;
     }
@@ -1345,16 +1346,17 @@ textarea:hover {
         width: 768px;
         height: 454px;
         display: inline-flex;
+        position: relative;
     }
 
 /* < !-- footer logo text --> */
     .logo-footer {
         margin-top: 96px;
-        margin-left: 108px;
+        margin-left: 92px;
     }
 
     .text-footer {
-        margin-left: 108px;
+        margin-left: 92px;
     }
 
 /* < !-- Social --> */
@@ -1365,12 +1367,15 @@ textarea:hover {
 
 /* < !-- Subscribe --! */
     .subscribe {
-        /* position: absolute; */
+        position: absolute;
+        left: 108px;
+        bottom: 96px;
+        margin-left: 0;
     }
 
 /* < !-- backdrop --> */
     .backdrop {
-        width: 768pxpx;
+        width: 768px;
     }
         
 /* ------Modal------- */
