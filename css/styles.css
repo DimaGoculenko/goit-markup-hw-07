@@ -879,7 +879,10 @@ textarea:hover {
         margin-left: 16px;
         margin-right: 0;
     }
-
+    .corrent::after {
+        display: none;
+    }
+    
 /* < !-- Contacts --> */
     .js-open-menu {
         margin-left: 260px;
@@ -902,17 +905,18 @@ textarea:hover {
         content: "";
         width: 428px;
         height: 796px;
-        top: 0;
+        top: 100px;
         left: 0;
+        z-index: 1;
         background-color: var(--primary-fon-color);
         box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
         transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 /* -------Бургер скрыть меню контакты------- */
     .js-menu-container {
-        opacity: 0;
+        /* opacity: 0;
         pointer-events: none;
-        visibility: hidden;
+        visibility: hidden; */
     }
 
     .js-close-menu {
