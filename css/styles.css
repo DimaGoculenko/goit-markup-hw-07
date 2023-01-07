@@ -893,8 +893,8 @@ textarea:hover {
         background-color: transparent;
     }
 
-    .icon-link {
-        fill: brown;
+    .js-open-menu:hover {
+        background-color: var(--primary-fon-color);
     }
 
     .js-menu-container {
