@@ -881,17 +881,21 @@ textarea:hover {
     }
 
 /* < !-- Contacts --> */
-    .mobile-menu-open {
+    .js-open-menu {
         background-color: var(--primary-fon-color);
-        background-image: url(/images/images-mobile/charm_menu-hamburger-2.jpg);
-        background-repeat: no-repeat;
-        width: 32px;
-        height: 32px;
+        /* background-image: url(/images/images-mobile/charm_menu-hamburger-2.jpg); */
+        /* background-repeat: no-repeat; */
+        /* width: 32px;
+        height: 32px; */
         margin-left: 260px;
-        border: none;
+        /* border: none; */
     }
 
-    .mobil-menu {
+    .button-burger {
+        
+    }
+
+    .js-menu-container {
         position: absolute;
         content: "";
         width: 428px;
@@ -903,13 +907,13 @@ textarea:hover {
         transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 /* -------Бургер скрыть меню контакты------- */
-    .mobil-menu {
+    .js-menu-container {
         opacity: 0;
         pointer-events: none;
         visibility: hidden;
     }
 
-    .mobil-menu-close {
+    .js-close-menu {
         position: absolute;
         content: "";
         width: 24px;
@@ -1228,24 +1232,25 @@ textarea:hover {
 /* -------------------Tablet 768px -----------------*/
 @media screen and (min-width: 768px) and (max-width: 1199px) {
     body {
-        width: 100%;
+        width: 768px;
     }
 
-    .mobile-menu-open,
-    .mobil-menu,
+    .js-open-menu,
+    .js-menu-container,
     .section2,
     .feature-list::before {
         display: none;
     }
 
     .container {
-        width: 768px;
+        width: auto;
         padding-left: 16px;
         padding-right: 16px;
     }
 
 /* < !-- header --> */
     .header {
+        width: 100%;
         height: 70px;
     }
 
@@ -1291,6 +1296,7 @@ textarea:hover {
 
 /* < !-- Section 3 Our Team --> */
     .section3 {
+        width: 100%;
         height: 1232px;
         margin-top: 96px;
         padding-top: 0;
@@ -1387,8 +1393,8 @@ textarea:hover {
 /* -------------------Desktop 1440px -----------------*/
 @media screen and (min-width: 1200px) {
     
-    .mobile-menu-open,
-    .mobil-menu {
+    .js-open-menu,
+    .js-menu-container {
         display: none;
     }
 }
