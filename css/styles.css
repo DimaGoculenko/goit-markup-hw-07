@@ -882,7 +882,7 @@ textarea:hover {
     .corrent::after {
         display: none;
     }
-    
+
 /* < !-- Contacts --> */
     .js-open-menu {
         margin-left: 260px;
@@ -892,20 +892,17 @@ textarea:hover {
         background-color: transparent;
     }
 
-    .button-hamburger {
-    }
-
     .icon-link {
         fill: brown;
-
     }
 
     .js-menu-container {
         position: absolute;
+        display: none;
         content: "";
         width: 428px;
         height: 796px;
-        top: 100px;
+        top: 0;
         left: 0;
         z-index: 1;
         background-color: var(--primary-fon-color);
@@ -913,10 +910,8 @@ textarea:hover {
         transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 /* -------Бургер скрыть меню контакты------- */
-    .js-menu-container {
-        /* opacity: 0;
-        pointer-events: none;
-        visibility: hidden; */
+    .is-open {
+        display: block;
     }
 
     .js-close-menu {
