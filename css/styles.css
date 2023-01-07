@@ -1257,7 +1257,29 @@ textarea:hover {
     }
 
 /* < !-- Contacts -->*/
+    .link-navigation:last-child {
+        margin-right: 0px;
+    }
 
+    .contact {
+        display: block;
+    }
+
+    .contact-list {
+        font-size: 12px;
+        line-height: 16px;
+        margin-right: 16px;
+        margin-bottom: 4px;
+    }
+
+    .corrent::after {
+        top: 41px;
+    }
+
+    .icon-contact {
+        width: 16px;
+        height: 16px;
+    }
 
 /* < !-- section-block --> */
     .section-block {
