@@ -882,17 +882,15 @@ textarea:hover {
 
 /* < !-- Contacts --> */
     .js-open-menu {
-        background-color: var(--primary-fon-color);
-        /* background-image: url(/images/images-mobile/charm_menu-hamburger-2.jpg); */
-        /* background-repeat: no-repeat; */
-        /* width: 32px;
-        height: 32px; */
         margin-left: 260px;
-        /* border: none; */
+        border: none;
+        width: 32px;
+        height: 22px;
     }
 
-    .button-burger {
-        
+    .button-hamburger {
+        fill: #2E2F42;
+    
     }
 
     .js-menu-container {
