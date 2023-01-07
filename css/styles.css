@@ -886,11 +886,15 @@ textarea:hover {
         border: none;
         width: 32px;
         height: 22px;
+        background-color: transparent;
     }
 
     .button-hamburger {
-        fill: #2E2F42;
-    
+    }
+
+    .icon-link {
+        fill: brown;
+
     }
 
     .js-menu-container {
