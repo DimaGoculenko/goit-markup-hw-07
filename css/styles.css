@@ -836,7 +836,7 @@ textarea:hover {
 
 
 /* ------------------Mobile 428px------------------*/
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 0px) and (max-width: 767px) {
     body {
         width: 428px;
         height: 4958px;
