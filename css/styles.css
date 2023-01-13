@@ -916,7 +916,7 @@ textarea:hover {
 
 /* -------Бургер скрыть меню контакты------- */
     .is-open {
-        /* display: block; */
+        display: block;
         opacity: 1;
         pointer-events: painted;
         transform: translateX(0);
