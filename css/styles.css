@@ -840,6 +840,7 @@ textarea:hover {
     body {
         width: 428px;
         height: 4958px;
+        overflow: hidden;
     }
 
     .container {
@@ -919,6 +920,7 @@ textarea:hover {
         opacity: 1;
         pointer-events: painted;
         transform: translateX(0);
+        transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
     .js-close-menu {
