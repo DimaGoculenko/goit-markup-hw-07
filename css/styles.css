@@ -839,6 +839,7 @@ textarea:hover {
 @media screen and (max-width: 767px) {
     body {
         width: 428px;
+        /* max-width: 767px; */
         height: 4958px;
         overflow: hidden;
     }
