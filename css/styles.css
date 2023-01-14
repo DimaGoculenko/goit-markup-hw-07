@@ -568,6 +568,10 @@ li .portfolio-link {
     margin-right: 24px;
 }
 
+.li-button:last-child {
+    margin-right: 0;
+}
+
 /* < !-- Section --> */
 .flex-container {
     display: flex;
@@ -1346,7 +1350,6 @@ textarea:hover {
 
     .customers {
         justify-content: center;
-        /* width: 552px; */
     }
 
     .title-text-customers {
@@ -1412,7 +1415,6 @@ textarea:hover {
     .button-filters {
         margin-top: 64px;
         margin-bottom: 64px;
-        margin-left: 91px;
     }
 
 /* < !-- Section --> */
