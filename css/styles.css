@@ -206,7 +206,7 @@ button:focus {
 .feature-list {
     list-style-type: none;
     display: block;
-    flex-basis: calc((100% - 72px)/4);
+    /* flex-basis: calc((100% - 72px)/4); */
 }
 
 .feature-list::before {
@@ -1469,5 +1469,9 @@ textarea:hover {
     body {
         max-width: 1440px;
         margin: auto;
+    }
+
+    .feature-list {
+        flex-basis: calc((100% - 72px)/4);
     }
 }
