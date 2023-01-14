@@ -1195,8 +1195,8 @@ textarea:hover {
 
 /*--------main для portfolio.html----------*/
     .button-filters {
-        padding-top: 48px;
-        padding-bottom: 48px;
+        margin-top: 48px;
+        margin-bottom: 48px;
         margin-left: 16px;
     }
 
