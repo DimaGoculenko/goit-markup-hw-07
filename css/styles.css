@@ -905,6 +905,7 @@ textarea:hover {
         opacity: 0;
         pointer-events: none;
         content: "";
+        top: 0;
         width: 428px;
         height: 796px;
         z-index: 1;
@@ -1212,9 +1213,11 @@ textarea:hover {
     }
 
     .flex-container {
+        min-width: 396px;
         display: block;
         margin-right: 16px;
         margin-left: 16px;
+        padding-bottom: 0;
     }
 
     .list-item {
