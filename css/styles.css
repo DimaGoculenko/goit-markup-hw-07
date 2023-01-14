@@ -198,10 +198,15 @@ button:focus {
     height: 224px;
 }
 
+.section1-li {
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
 .feature-list {
     list-style-type: none;
     display: block;
-    margin-right: 24px;
+    flex-basis: calc((100% - 72px)/4);
 }
 
 .feature-list::before {
@@ -244,7 +249,7 @@ button:focus {
     margin-top: 8px;
 }
 
-/* < !-- Section 2 --> */
+/* < !-- Section 2 What are we doing --> */
 .section2 {
     margin-top: 120px;
     padding-bottom: 120px;
@@ -269,7 +274,7 @@ button:focus {
     font-size: 36px;
 }
 
-/* < !-- Section 3 --> */
+/* < !-- Section 3 Our Team--> */
 .section3 {
     text-align: center;
     background-color: var(--color-section-logo);
@@ -283,12 +288,16 @@ button:focus {
     font-size: 36px;
     font-weight: 600;
 }
+.list-photo-li {
+    gap: 24px;
+    flex-wrap: nowrap;
+}       
 
 .list-photo {
     list-style-type: none;
     display: flex;
     flex-direction: column;
-    margin-right: 24px;
+    flex-basis: calc((100% - 72px)/4);
     border: 0.5px outset var(--color-border);
     background-color: var(--primary-fon-color);
     border-radius: 0px 0px 4px 4px;
@@ -304,10 +313,6 @@ button:focus {
     padding-bottom: 32px;
     padding-right: 16px;
     padding-left: 16px;
-}
-
-.name-slogan:last-child {
-    padding-right: 0;
 }
 
 /* H3 -- name */
@@ -838,9 +843,8 @@ textarea:hover {
 /* ------------------Mobile 428px------------------*/
 @media screen and (max-width: 767px) {
     body {
-        width: 428px;
-        /* max-width: 767px; */
-        height: 4958px;
+        max-width: 428px;
+        margin: auto;
     }
 
     .container {
@@ -1241,7 +1245,8 @@ textarea:hover {
 /* -------------------Tablet 768px -----------------*/
 @media screen and (min-width: 768px) and (max-width: 1199px) {
     body {
-        width: 768px;
+        max-width: 768px;
+        margin: auto;
     }
 
     .js-open-menu,
@@ -1461,5 +1466,10 @@ textarea:hover {
     .js-open-menu,
     .js-menu-container {
         display: none;
+    }
+
+    body {
+        max-width: 1440px;
+        margin: auto;
     }
 }
