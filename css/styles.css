@@ -879,6 +879,7 @@ textarea:hover {
         margin-left: 16px;
         margin-right: 0;
     }
+    
     .corrent::after {
         display: none;
     }
@@ -1094,7 +1095,7 @@ textarea:hover {
 
     .customers-li:nth-child(2n+2) {
         margin-right: 0;
-        }
+    }
 
 /* < !-- Footer --> */
     .footer {
@@ -1441,7 +1442,6 @@ textarea:hover {
         font-size: 20px;
         line-height: 24px;
     }
-
 }
 
 
