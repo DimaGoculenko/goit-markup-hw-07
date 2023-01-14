@@ -1185,7 +1185,7 @@ textarea:hover {
 
 /* < !-- backdrop --> */
     .backdrop {
-        /* width: 428px; */
+        width: 428px;
     }
 
     .modal {
