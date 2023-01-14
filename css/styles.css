@@ -841,7 +841,6 @@ textarea:hover {
         width: 428px;
         /* max-width: 767px; */
         height: 4958px;
-        overflow: hidden;
     }
 
     .container {
