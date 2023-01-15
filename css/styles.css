@@ -904,7 +904,7 @@ textarea:hover {
         pointer-events: none;
         content: "";
         top: 0;
-        width: 100%;
+        width: 428px;
         height: 796px;
         z-index: 1;
         background-color: var(--primary-fon-color);
