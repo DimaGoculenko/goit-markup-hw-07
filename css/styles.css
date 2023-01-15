@@ -848,7 +848,7 @@ textarea:hover {
     }
 
     .container {
-        width: auto;
+        max-width: 428px;
         padding-left: 0;
         padding-right: 0;
     }
@@ -1061,12 +1061,16 @@ textarea:hover {
 
     /* < !-- Section Customers --> */
     .section-customers {
-        width: 396px;
+        /* width: 396px; */
         height: 522px;
         margin-right: auto;
         margin-left: auto;
         margin-bottom: 96px;
         margin-top: 96px;
+    }
+
+    .customers {
+        margin-left: 16px;
     }
 
     .title-text-customers{
